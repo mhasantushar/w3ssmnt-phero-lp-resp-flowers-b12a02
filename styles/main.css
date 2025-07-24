@@ -63,13 +63,6 @@ body {
     padding-bottom: 15px;
 }
 
-.hero-copies {
-    font-weight: 400;
-    font-size: 1.375rem;
-    line-height: 1.6875rem;
-    color: rgba(0, 0, 0, 0.5);
-}
-
 .sect-header {
     font-family: "Noto Serif", serif;
     font-weight: 700;
@@ -114,13 +107,13 @@ body {
 }
 
 .nav-logo img {
-    /* border: 1px solid cadetblue; */
+    border: 1px solid cadetblue;
     width: 100%;
     display: block;
 }
 
 .nav-menu-wrapper {
-    /* border: 1px solid cadetblue; */
+    border: 1px solid cadetblue;
     display: flex;
     gap: 50px;
     justify-content: space-between;
@@ -145,7 +138,7 @@ body {
     color: #8987A1;
 }
 
-/* hero area styles */
+/* hero section styles */
 .hero-sect {
     border: 1px solid cadetblue;
 }
@@ -171,7 +164,7 @@ body {
     animation: hero-anima 10s linear infinite alternate;
 }
 
-/* our plant section */
+/* our plant section styles */
 .ourplants-sect {
     border: 1px solid cadetblue;
     text-align: center;
@@ -181,6 +174,8 @@ body {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: start;
     column-gap: 20px;
     row-gap: 30px;
 }
@@ -201,7 +196,7 @@ body {
     display: block;
 }
 
-.plant-details {
+.plant-desc {
     border: 1px solid cadetblue;
 }
 
@@ -221,6 +216,36 @@ body {
     margin-bottom: 30px;
 }
 
+/* flower & plants lover section styles */
+.flowerlover-sect {
+    border: 1px solid cadetblue;
+}
+
+.flowerlover-sect-wrapper {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: start;
+}
+
+.flowerlover-sect-wrapper ul li {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.flowerlover-image {
+    border: 1px solid cadetblue;
+    width: 50%;
+}
+
+.flowerlover-image img {
+    width: 100%;
+    display: block;
+}
+
+.flowerlover-desc {
+    width: 50%;
+}
 
 
 /* ------------ responsive css ------------ */
