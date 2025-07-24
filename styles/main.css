@@ -262,9 +262,9 @@ body {
     border: 1px solid cadetblue;
     margin-top: 120px;
     display: flex;
-    gap: 28px;
+    gap: 25px;
     justify-content: center;
-    align-items: start;
+    /* align-items: start; */
 }
 
 .dealcard-left-col-wrap {
@@ -272,7 +272,7 @@ body {
     /* width: 33%; */
     display: flex;
     flex-direction: column;
-    align-items: start;
+    /* align-items: start; */
     gap: 25px;
 }
 
@@ -310,6 +310,7 @@ body {
 
 .dealcard-left-col-wrap a {
     font-weight: 600;
+    font-size: 1rem;
     line-height: 1.1875rem;
     color: #ffffff;
     text-underline-offset: 0.25rem;
@@ -328,7 +329,7 @@ body {
     width: 753px; */
     border-radius: 22px;
     overflow: hidden;
-    padding: 170px 140px;
+    padding: 170px 0px;
 }
 
 .dealcard-right-col h4 {
@@ -336,7 +337,7 @@ body {
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 3.375rem;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .dealcard-right-col a {
@@ -344,7 +345,7 @@ body {
     font-size: 1.75rem;
     line-height: 2.215rem;
     color: #ffffff;
-    text-underline-offset: 0.25rem;
+    text-underline-offset: 0.45rem;
     display: block;
     padding: 26px 50px;
 }
@@ -355,10 +356,6 @@ body {
     body {
         margin-top: 10px;
     }
-
-    /* .set-sect-margins {
-        margin-bottom: 65px;
-    } */
 
     .hero-header,
     .sect-header {
@@ -442,5 +439,34 @@ body {
 
     .flowerlover-desc {
         width: 100%;
+    }
+
+    .dealcard-wrapper {
+        flex-direction: column;
+    }
+
+    .dealcard-left-top-cell {
+        padding: 65px 0px;
+        width: 100%;
+    }
+
+    .dealcard-left-bottom-cell {
+        padding: 65px 0px;
+        width: 100%;
+    }
+
+    .dealcard-right-col {
+        padding: 65px 0px;
+        width: 100%;
+    }
+
+    .dealcard-right-col h4 {
+        font-size: 1.25rem;
+        line-height: 1.6875rem;
+    }
+
+    .dealcard-right-col a {
+        font-size: 1rem;
+        line-height: 1.1875rem;
     }
 }
