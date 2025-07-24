@@ -365,6 +365,7 @@ body {
     background-position: center;
     padding: 200px 0;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .subscribe-wrapper {
@@ -402,15 +403,12 @@ body {
 }
 
 /* footer section styles */
-.footlinks-sect {
-    padding: 50px 50px 0 50px;
-}
-
 .footlinks-wrapper {
     display: flex;
     gap: 20px;
     justify-content: space-between;
-    align-items:start;
+    align-items: start;
+    margin-bottom: 50px;
 }
 
 .footer-col-1 {
@@ -437,14 +435,14 @@ body {
     font-weight: 400;
     font-size: 1rem;
     list-style: 1.5rem;
-    color:#6B7280;
-} 
+    color: #6B7280;
+}
 
 .footer-socials-wrap {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-between;
 }
 
 /* ------------ responsive css ------------ */
@@ -579,3 +577,21 @@ body {
     .subscribe-wrapper input[type="email"] {
         width: 300px;
     }
+
+    .footlinks-wrapper {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .footer-col-1 {
+        margin-bottom: 15px;
+    }
+
+    .footer-col-4 {
+        margin-top: 15px;
+    }
+
+    .footer-socials-wrap {
+        gap: 30px;
+    }
+}
