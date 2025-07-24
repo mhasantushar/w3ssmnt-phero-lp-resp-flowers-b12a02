@@ -84,7 +84,7 @@ body {
     color: rgba(0, 0, 0, 0.5);
 }
 
-@keyframes hero-anima {
+@keyframes hero-fade {
     0% {
         opacity: 100%
     }
@@ -94,8 +94,13 @@ body {
     }
 }
 
-.hideme {
-    display: none;
+@keyframes badge-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /* navigation area styles */
@@ -172,7 +177,7 @@ body {
     width: 100%;
     display: block;
     object-fit: cover;
-    animation: hero-anima 10s linear infinite alternate;
+    animation: hero-fade 10s linear infinite alternate;
 }
 
 /* our plant section styles */
@@ -232,7 +237,7 @@ body {
 /* flower & plants lover section styles */
 .flowerlover-sect {
     /* border: 1px solid cadetblue; */
-    /* margin-top: 300px; */
+    /* margin-top: 150px; */
 }
 
 .flowerlover-wrapper {
@@ -265,6 +270,7 @@ body {
     position: absolute;
     top: -80px;
     right: -60px;
+    animation: badge-spin 60s linear infinite;
 }
 
 .flowerlover-desc {
@@ -334,7 +340,7 @@ body {
     color: #ffffff;
     text-underline-offset: 0.25rem;
     display: block;
-    padding: 26px 50px;
+    padding: 20px 50px;
 }
 
 .dealcard-right-col {
@@ -348,7 +354,7 @@ body {
     width: 753px; */
     border-radius: 22px;
     /* overflow: hidden; */
-    padding: 170px 0px;
+    padding: 160px 0px;
 }
 
 .dealcard-right-col h4 {
@@ -364,9 +370,9 @@ body {
     font-size: 1.75rem;
     line-height: 2.215rem;
     color: #ffffff;
-    text-underline-offset: 0.45rem;
+    text-underline-offset: 0.5rem;
     display: block;
-    padding: 26px 50px;
+    padding: 20px 50px;
 }
 
 /* subscribe section styles */
