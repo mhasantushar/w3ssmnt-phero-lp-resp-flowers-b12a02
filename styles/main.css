@@ -224,7 +224,11 @@ body {
 
 
 /* ------------ responsive css ------------ */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
     body {
         margin-top: 10px;
     }
@@ -264,5 +268,10 @@ body {
 
     .hero-image {
         width: 100%;
+    }
+
+    .plant-card-wrapper {
+        margin-top: 28px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
