@@ -250,13 +250,21 @@ body {
 .flowerlover-image {
     /* border: 1px solid cadetblue; */
     width: 50%;
+    position: relative;
 }
 
-.flowerlover-image img {
+.flowerlover-img-man {
     width: 100%;
     display: block;
     object-fit: cover;
     border-bottom-left-radius: 50px;
+}
+
+.flowerlover-img-badge {
+    width: 200px;
+    position: absolute;
+    top: -80px;
+    right: -60px;
 }
 
 .flowerlover-desc {
@@ -540,7 +548,7 @@ body {
         width: 100%;
     }
 
-    .flowerlover-image img {
+    .flowerlover-img-man {
         border-bottom-left-radius: 0;
     }
 
