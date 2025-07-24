@@ -44,6 +44,10 @@ body {
     color: #E95A08;
 }
 
+.col-white {
+    color: #ffffff;
+}
+
 .btn-punch {
     background-color: #E95A08;
     border-color: #E95A08;
@@ -91,7 +95,7 @@ body {
 
 /* navigation area styles */
 .navig-sect {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
 }
 
 .navig-wrapper {
@@ -107,14 +111,14 @@ body {
 }
 
 .nav-logo img {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
     width: 100%;
     display: block;
     object-fit: cover;
 }
 
 .nav-menu-wrapper {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
     display: flex;
     gap: 50px;
     justify-content: space-between;
@@ -141,7 +145,7 @@ body {
 
 /* hero section styles */
 .hero-sect {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
 }
 
 .hero-sect-wrapper {
@@ -168,7 +172,7 @@ body {
 
 /* our plant section styles */
 .ourplants-sect {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
     text-align: center;
 }
 
@@ -183,11 +187,11 @@ body {
 }
 
 .plantcard {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
 }
 
 .plant-image {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
     /* max-width: 270px;
     max-height: 323px; */
     margin-bottom: 30px;
@@ -200,7 +204,7 @@ body {
 }
 
 .plant-desc {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
 }
 
 .plant-title {
@@ -221,7 +225,7 @@ body {
 
 /* flower & plants lover section styles */
 .flowerlover-sect {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
     /* margin-top: 300px; */
 }
 
@@ -238,7 +242,7 @@ body {
 }
 
 .flowerlover-image {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
     width: 50%;
 }
 
@@ -254,13 +258,13 @@ body {
 
 /* latest deals section styles */
 .latestdeals-sect {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
     text-align: center;
 }
 
 .dealcard-wrapper {
-    border: 1px solid cadetblue;
-    margin-top: 120px;
+    /* border: 1px solid cadetblue; */
+    margin-top: 50px;
     display: flex;
     gap: 25px;
     justify-content: center;
@@ -268,7 +272,7 @@ body {
 }
 
 .dealcard-left-col-wrap {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
     /* width: 33%; */
     display: flex;
     flex-direction: column;
@@ -284,7 +288,7 @@ body {
     /* height: 206px;
     width: 366px; */
     border-radius: 14px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 65px 75px;
 }
 
@@ -296,7 +300,7 @@ body {
     /* height: 206px;
     width: 366px; */
     border-radius: 14px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 65px 87px;
 }
 
@@ -319,7 +323,7 @@ body {
 }
 
 .dealcard-right-col {
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
     flex: 1;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-zabo.png);
     background-repeat: no-repeat;
@@ -328,7 +332,7 @@ body {
     /* height: 423px;
     width: 753px; */
     border-radius: 22px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 170px 0px;
 }
 
@@ -349,6 +353,48 @@ body {
     display: block;
     padding: 26px 50px;
 }
+
+/* subscribe section styles */
+.subscribe-sect {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.subscribe-sect h2 {
+    margin-bottom: 20px;
+}
+
+.subscribe-wrapper {
+    display: flex;
+    justify-content: center;
+    gap:0px;
+}
+
+.subscribe-wrapper input[type="email"] {
+    background-color: #ffffff;
+    border: none;
+    width: 500px;
+    padding: 8px 20px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.subscribe-wrapper input[type="submit"] {
+    background-color: #E95A08;
+    border: none;
+    padding: 8px 50px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #ffffff;
+}
+
 
 /* ------------ responsive css ------------ */
 @media screen and (max-width: 768px) {
@@ -410,11 +456,11 @@ body {
     }
 
     .ourplants-sect {
-        margin-bottom: 42px;
+        margin-bottom: 65px;
     }
 
     .plantcard-wrapper {
-        margin-top: 28px;
+        margin-top: 30px;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -426,6 +472,10 @@ body {
     .plant-price {
         font-size: 1rem;
         margin-bottom: 30px;
+    }
+
+    .flowerlover-sect {
+        margin-bottom: 65px;
     }
 
     .flowerlover-wrapper {
@@ -441,7 +491,12 @@ body {
         width: 100%;
     }
 
+    .latestdeals-sect {
+        margin-bottom: 65px;
+    }
+
     .dealcard-wrapper {
+        margin-top: 30px;
         flex-direction: column;
     }
 
