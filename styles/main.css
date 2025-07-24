@@ -110,6 +110,7 @@ body {
     border: 1px solid cadetblue;
     width: 100%;
     display: block;
+    object-fit: cover;
 }
 
 .nav-menu-wrapper {
@@ -159,8 +160,9 @@ body {
 }
 
 .hero-image img {
-    display: block;
     width: 100%;
+    display: block;
+    object-fit: cover;
     animation: hero-anima 10s linear infinite alternate;
 }
 
@@ -170,7 +172,7 @@ body {
     text-align: center;
 }
 
-.plant-card-wrapper {
+.plantcard-wrapper {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -180,7 +182,7 @@ body {
     row-gap: 30px;
 }
 
-.plant-card {
+.plantcard {
     border: 1px solid cadetblue;
 }
 
@@ -194,6 +196,7 @@ body {
 .plant-image img {
     width: 100%;
     display: block;
+    object-fit: cover;
 }
 
 .plant-desc {
@@ -222,14 +225,14 @@ body {
     /* margin-top: 300px; */
 }
 
-.flowerlover-sect-wrapper {
+.flowerlover-wrapper {
     display: flex;
     gap: 60px;
     justify-content: center;
     align-items: start;
 }
 
-.flowerlover-sect-wrapper ul li {
+.flowerlover-wrapper ul li {
     margin-left: 30px;
     margin-bottom: 20px;
 }
@@ -242,12 +245,109 @@ body {
 .flowerlover-image img {
     width: 100%;
     display: block;
+    object-fit: cover;
 }
 
 .flowerlover-desc {
     width: 50%;
 }
 
+/* latest deals section styles */
+.latestdeals-sect {
+    border: 1px solid cadetblue;
+    text-align: center;
+}
+
+.dealcard-wrapper {
+    border: 1px solid cadetblue;
+    margin-top: 120px;
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    align-items: start;
+}
+
+.dealcard-left-col-wrap {
+    border: 1px solid cadetblue;
+    /* width: 33%; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+}
+
+.dealcard-left-top-cell {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 206px;
+    width: 366px; */
+    border-radius: 14px;
+    overflow: hidden;
+    padding: 65px 75px;
+}
+
+.dealcard-left-bottom-cell {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 206px;
+    width: 366px; */
+    border-radius: 14px;
+    overflow: hidden;
+    padding: 65px 87px;
+}
+
+.dealcard-left-col-wrap h4 {
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+    color: #ffffff;
+}
+
+.dealcard-left-col-wrap a {
+    font-weight: 600;
+    line-height: 1.1875rem;
+    color: #ffffff;
+    text-underline-offset: 0.25rem;
+    display: block;
+    padding: 26px 50px;
+}
+
+.dealcard-right-col {
+    border: 1px solid cadetblue;
+    flex: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 423px;
+    width: 753px; */
+    border-radius: 22px;
+    overflow: hidden;
+    padding: 170px 140px;
+}
+
+.dealcard-right-col h4 {
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.375rem;
+    color: #ffffff; 
+}
+
+.dealcard-right-col a {
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.215rem;
+    color: #ffffff;
+    text-underline-offset: 0.25rem;
+    display: block;
+    padding: 26px 50px;
+}
 
 /* ------------ responsive css ------------ */
 @media screen and (max-width: 768px) {
@@ -316,7 +416,7 @@ body {
         margin-bottom: 42px;
     }
 
-    .plant-card-wrapper {
+    .plantcard-wrapper {
         margin-top: 28px;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -331,7 +431,7 @@ body {
         margin-bottom: 30px;
     }
 
-    .flowerlover-sect-wrapper {
+    .flowerlover-wrapper {
         flex-direction: column;
         gap: 20px;
     }
