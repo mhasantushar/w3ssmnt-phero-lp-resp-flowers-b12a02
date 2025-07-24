@@ -364,20 +364,17 @@ body {
     text-align: center;
 }
 
-.subscribe-sect h2 {
-    margin-bottom: 20px;
-}
-
 .subscribe-wrapper {
     display: flex;
     justify-content: center;
     gap:0px;
+    margin: 20px 5px 0px 5px;
 }
 
 .subscribe-wrapper input[type="email"] {
     background-color: #ffffff;
     border: none;
-    width: 500px;
+    width: 600px;
     padding: 8px 20px;
     font-weight: 400;
     font-size: 1rem;
@@ -524,4 +521,7 @@ body {
         font-size: 1rem;
         line-height: 1.1875rem;
     }
+
+    .subscribe-wrapper input[type="email"] {
+    width: 300px;
 }
