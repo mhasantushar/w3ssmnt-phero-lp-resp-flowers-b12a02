@@ -251,12 +251,28 @@ body {
 
 /* ------------ responsive css ------------ */
 @media screen and (max-width: 768px) {
-    .hide-on-mobile {
-        display: none;
-    }
 
     body {
         margin-top: 10px;
+    }
+
+    /* .set-sect-margins {
+        margin-bottom: 65px;
+    } */
+
+    .hero-header,
+    .sect-header {
+        font-size: 1.5rem;
+        line-height: 150%;
+    }
+
+    .sect-copies {
+        font-size: 0.875rem;
+        line-height: 150%;
+    }
+
+    .hide-on-mobile {
+        display: none;
     }
 
     .navig-sect {
@@ -296,9 +312,23 @@ body {
         width: 100%;
     }
 
+    .ourplants-sect {
+        margin-bottom: 42px;
+    }
+
     .plant-card-wrapper {
         margin-top: 28px;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .plant-title {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .plant-price {
+        font-size: 1rem;
+        margin-bottom: 30px;
     }
 
     .flowerlover-sect-wrapper {
