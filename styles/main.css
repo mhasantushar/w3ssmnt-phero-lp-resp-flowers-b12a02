@@ -219,6 +219,7 @@ body {
 /* flower & plants lover section styles */
 .flowerlover-sect {
     border: 1px solid cadetblue;
+    /* margin-top: 300px; */
 }
 
 .flowerlover-sect-wrapper {
@@ -298,5 +299,18 @@ body {
     .plant-card-wrapper {
         margin-top: 28px;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flowerlover-sect-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .flowerlover-image {
+        width: 100%;
+    }
+
+    .flowerlover-desc {
+        width: 100%;
     }
 }
