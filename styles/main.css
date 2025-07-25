@@ -597,6 +597,10 @@ body {
         line-height: 1.1875rem;
     }
 
+    .subscribe-sect {
+        padding: 100px 0;
+    }
+
     .subscribe-wrapper input[type="email"] {
         width: 300px;
     }
