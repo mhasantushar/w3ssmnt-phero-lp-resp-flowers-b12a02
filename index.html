@@ -193,7 +193,7 @@
             <h2 class="sect-header"><span class="col-white">Join the colorful Bunch</span></h2>
             <div class="subscribe-wrapper">
                 <input type="email" name="" id="" placeholder="Write email" required>
-                <input type="submit" name="" value="Subscribe">
+                <input type="submit" name="" value="Subscribe" onclick="MailConfirm()">
             </div>
         </section>
         <section class="set-global-width">
@@ -237,6 +237,9 @@
     <script>
         function CartConfirm() {
             alert("Hello! Flower has been added to the cart. Thank you :)");
+        }
+        function MailConfirm() {
+            alert("Congrats! You have subscribed to our newsletter, not any other bullshit, we promise :)")
         }
     </script>
 </body>
