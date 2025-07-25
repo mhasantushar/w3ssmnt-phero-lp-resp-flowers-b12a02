@@ -67,7 +67,7 @@
                     <div class="plant-desc">
                         <h3 class="plant-title">Lily Blossom</h3>
                         <p class="plant-price">20 USD</p>
-                        <button class="btn-punch">ADD TO CART</button>
+                        <button class="btn-punch" onclick="CartConfirm()">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="plantcard">
@@ -77,7 +77,7 @@
                     <div class="plant-desc">
                         <h3 class="plant-title">Lily Blossom</h3>
                         <p class="plant-price">20 USD</p>
-                        <button class="btn-punch">ADD TO CART</button>
+                        <button class="btn-punch" onclick="CartConfirm()">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="plantcard">
@@ -87,7 +87,7 @@
                     <div class="plant-desc">
                         <h3 class="plant-title">Lily Blossom</h3>
                         <p class="plant-price">20 USD</p>
-                        <button class="btn-punch">ADD TO CART</button>
+                        <button class="btn-punch" onclick="CartConfirm()">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="plantcard">
@@ -97,7 +97,7 @@
                     <div class="plant-desc">
                         <h3 class="plant-title">Lily Blossom</h3>
                         <p class="plant-price">20 USD</p>
-                        <button class="btn-punch">ADD TO CART</button>
+                        <button class="btn-punch" onclick="CartConfirm()">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="plantcard">
@@ -107,7 +107,7 @@
                     <div class="plant-desc">
                         <h3 class="plant-title">Lily Blossom</h3>
                         <p class="plant-price">20 USD</p>
-                        <button class="btn-punch">ADD TO CART</button>
+                        <button class="btn-punch" onclick="CartConfirm()">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="plantcard">
@@ -117,7 +117,7 @@
                     <div class="plant-desc">
                         <h3 class="plant-title">Lily Blossom</h3>
                         <p class="plant-price">20 USD</p>
-                        <button class="btn-punch">ADD TO CART</button>
+                        <button class="btn-punch" onclick="CartConfirm()">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="plantcard hideme-on-mobile">
@@ -127,7 +127,7 @@
                     <div class="plant-desc">
                         <h3 class="plant-title">Lily Blossom</h3>
                         <p class="plant-price">20 USD</p>
-                        <button class="btn-punch">ADD TO CART</button>
+                        <button class="btn-punch" onclick="CartConfirm()">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="plantcard hideme-on-mobile">
@@ -137,7 +137,7 @@
                     <div class="plant-desc">
                         <h3 class="plant-title">Lily Blossom</h3>
                         <p class="plant-price">20 USD</p>
-                        <button class="btn-punch">ADD TO CART</button>
+                        <button class="btn-punch" onclick="CartConfirm()">ADD TO CART</button>
                     </div>
                 </div>
             </div>
@@ -146,7 +146,8 @@
             <div class="flowerlover-wrapper">
                 <figure class="flowerlover-image">
                     <img class="flowerlover-img-man" src="./assets/flower-store.png" alt="Flower store">
-                    <img class="flowerlover-img-badge hideme-on-mobile" src="./assets/trusted-badge.png" alt="Trusted Badge">
+                    <img class="flowerlover-img-badge hideme-on-mobile" src="./assets/trusted-badge.png"
+                        alt="Trusted Badge">
                 </figure>
                 <div class="flowerlover-desc">
                     <h2 class="sect-header">Flower & Plants Lover</h2>
@@ -200,7 +201,8 @@
                 <div class="footer-col-1">
                     <figure class="footer-logo">
                         <img src="./assets/logo.png" alt="Logo">
-                        <p class="sect-copies">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+                        <p class="sect-copies">Indulge your senses with the beauty and fragrance of our fresh flower
+                            shop. </p>
                     </figure>
                 </div>
                 <div class="footer-col-2">
@@ -213,13 +215,13 @@
                     </ul>
                 </div>
                 <div class="footer-col-3"></div>
-                    <ul class="footer-links">
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Teams of Services</a></li>
-                        <li><a href="#">Help Center</a></li>
-                    </ul>
+                <ul class="footer-links">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Teams of Services</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
                 <div class="footer-col-4">
                     <figure class="footer-socials-wrap">
                         <a href="#"><img src="./assets/icon-linkedin.png" alt="Linked In"></a>
@@ -231,6 +233,12 @@
             </div>
         </section>
     </footer>
+
+    <script>
+        function CartConfirm() {
+            alert("Hello! Flower has been added to the cart. Thank you :)");
+        }
+    </script>
 </body>
 
 </html>
