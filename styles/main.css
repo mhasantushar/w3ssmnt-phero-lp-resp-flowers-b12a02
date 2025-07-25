@@ -391,7 +391,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 0px;
-    margin: 20px 5px 0px 5px;
+    margin: 20px 200px 0px 200px;
 }
 
 .subscribe-wrapper input[type="email"] {
@@ -399,7 +399,8 @@ body {
     border: none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    width: 600px;
+    /* width: 600px; */
+    flex: 1;
     padding: 8px 20px;
     font-weight: 400;
     font-size: 1rem;
@@ -601,9 +602,13 @@ body {
         padding: 100px 0;
     }
 
-    .subscribe-wrapper input[type="email"] {
-        width: 300px;
+    .subscribe-wrapper {
+        margin: 20px 10px 0px 10px;
     }
+
+    /* .subscribe-wrapper input[type="email"] {
+        width: 300px;
+    } */
 
     .subscribe-wrapper input[type="submit"] {
         padding: 8px 10px;
